@@ -1,8 +1,8 @@
 def unsafe?(speed)
-  if speed < 2
-      "baby"
+  if speed > 60 && speed < 40
+      true
   else
-      "not a baby"
+      false
 end 
 end
 
